@@ -1,7 +1,3 @@
--- Конференции.РФ — схема БД
--- Создайте БД: CREATE DATABASE conferences;
--- Затем: psql -U postgres -d conferences -f schema.sql
-
 DROP TABLE IF EXISTS reviews CASCADE;
 DROP TABLE IF EXISTS applications CASCADE;
 DROP TABLE IF EXISTS rooms CASCADE;
@@ -45,4 +41,3 @@ INSERT INTO rooms (name) VALUES
   ('Коворкинг'),
   ('Кинозал');
 
--- Админ Conf2027 / Demo77 создаётся при старте server.js (bcrypt)

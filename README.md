@@ -8,6 +8,7 @@ Node.js + EJS + PostgreSQL (`"type": "module"`) + `.env`.
 1. Установите Node.js ≥ 18 и PostgreSQL.
 2. Создайте БД и таблицы:
 
+Query Tool => загрузить schema.sql
 
 3. Скопируйте env и поправьте пароль:
 
